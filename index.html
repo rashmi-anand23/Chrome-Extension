@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:ital,wght@0,100;0,200;0,400;1,100&display=swap"
+      rel="stylesheet">
+    <title>Weather</title>
+   
+  </head>
+  <body>
+    <div class="app_wrap">
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search_box"
+          placeholder="Enter City" style="background-color: rgba(50, 54, 67, 0.454); border-radius: 25px;"
+        />
+       
+
+      </header>
+
+      <main>
+        <section class="location">
+          <div class="city"></div>
+          <div class="date"></div>
+        </section>
+        <div class="current">
+          <div class="temp"><span></span></div>
+          <div class="weather"></div>
+          <div class="ftemp"></div>
+          <div class="mainp">
+            <img src="assets/icons8-sun-200.png" alt="hail" width="40%">
+        </div>
+        </div>
+      
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
